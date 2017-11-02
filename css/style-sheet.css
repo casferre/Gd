@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+.fundo{
+    background-color: #e8dade;
+}
+.pag1{
+    width: auto;
+    height: 600px;
+}
+.carousel{
+    min-height: 600px !important;
+}
+.fotos{
+    background-image: url(../imagens/Chair-One.png) !important;
+}
+.section{
+    min-height: 500px;
+}
+.page-footer{
+  background-color: #020101 !important;
+}
+.cor {
+    color: #e8dade;
+    }
+.texto{
+    font-weight: bold;
+}
+.card-title{
+    color: #020101 ;
+    font-size: 22px !important;
+    font-weight:500 !important;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+    color: #020101;
+}
+.parallax-container{
+    height: auto !important;
+    min-height: 400px !important;
+    min-width: auto;
+    max-height: 4000px !important;
+}
