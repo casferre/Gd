@@ -39,3 +39,24 @@
     min-width: auto;
     max-height: 4000px !important;
 }
+.skew{
+    width: 10px;
+    height: 100px;
+    background: black;
+    -webkit-transform: skew(0deg); /* Chrome, Opera */
+    -ms-transform: skew(0deg); /* IE */
+    transform: skew(0deg); /* Padrão */
+}
+.skew img{
+    width: 150px;
+    height: 150px;
+    margin-right: 25px;
+    float: left;
+}
+  
+  .p-skew{
+    padding: 10px;
+    -webkit-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+    transform: skew(-30deg); /* SKEW inverso para o texto não inclinar */
+}
