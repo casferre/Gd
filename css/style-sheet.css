@@ -10,9 +10,6 @@
 .carousel{
     min-height: 600px !important;
 }
-.fotos{
-    background-image: url(../imagens/Chair-One.png) !important;
-}
 .section{
     min-height: 500px;
 }
@@ -39,13 +36,12 @@
     min-width: auto;
     max-height: 4000px !important;
 }
-.skew{
+.positivo{
     -webkit-transform: skew(30deg); /* Chrome, Opera */
     -ms-transform: skew(30deg); /* IE */
     transform: skew(30deg); /* Padrão */
 }
-.p-skew{
-    padding: 10px;
+.p-negativo{
     -webkit-transform: skew(-30deg);
     -ms-transform: skew(-30deg);
     transform: skew(-30deg); /* SKEW inverso para o texto não inclinar */
